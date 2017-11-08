@@ -20,7 +20,7 @@ EOF
 }
 
 
-while getopts ":v:hf:s" OPTION
+while getopts ":v:hfs" OPTION
 do
     case $OPTION in
         h|help)
